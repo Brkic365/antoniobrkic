@@ -26,6 +26,8 @@
   },
   "contact_success_title": "SENT!",
   "contact_success_message": "Thank you for the message! You can expect my response in 1-2 days, otherwise please contact me through my email or phone number.",
+  "contact_fail_title": "FAILED TO SEND...",
+  "contact_fail_message": "Unfortunately, an error occurred which stopped your message from going through. Please try sending it again or contact me through my email or phone number.",
   "not_found": "NOT_FOUND",
   "go_back": "GO BACK",
   "hero_image": "yugioh_en.webp"

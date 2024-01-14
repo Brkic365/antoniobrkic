@@ -18,6 +18,8 @@ import Review from "./components/Review";
 import PROJECTS from "@/data/projects.json";
 import REVIEWS from "@/data/reviews.json";
 
+import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
+
 const OPTIONS: EmblaOptionsType = {
   containScroll: "trimSnaps",
   loop: true,
@@ -29,9 +31,11 @@ export default function Home({
 }: {
   params: { lang: string };
 }) {
+  const supabase = createClientComponentClient();
+
   const localeShort = lang.slice(0, 2);
 
-  const [open, setOpen] = useState(false);
+  const [messageSuccess, setMessageSuccess] = useState<boolean | null>(null);
   const [canSubmit, setCanSubmit] = useState(false);
 
   const nameRef = useRef<HTMLInputElement>(null);
@@ -40,8 +44,7 @@ export default function Home({
   const budgetRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => setMessageSuccess(null);
 
   const [dict, setDict] = useState<any>(null);
 
@@ -58,7 +61,7 @@ export default function Home({
     }
   };
 
-  const submitForm = () => {
+  const submitForm = async () => {
     const name = nameRef.current?.value;
     const email = emailRef.current?.value;
     const phone = phoneRef.current?.value;
@@ -75,9 +78,15 @@ export default function Home({
       message,
     };
 
-    console.log(data);
+    const insertRes = await supabase.from("messages").insert(data);
 
-    handleOpen();
+    console.log(insertRes);
+
+    if (insertRes.error) {
+      setMessageSuccess(false);
+    } else {
+      setMessageSuccess(true);
+    }
 
     nameRef.current!.value = "";
     emailRef.current!.value = "";
@@ -102,14 +111,22 @@ export default function Home({
   return (
     <main className={styles.main}>
       <Modal
-        open={open}
+        open={messageSuccess !== null}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
         <section className={styles.contactModal}>
-          <h2>{dict.contact_success_title}</h2>
-          <p>{dict.contact_success_message}</p>
+          <h2>
+            {messageSuccess
+              ? dict.contact_success_title
+              : dict.contact_fail_title}
+          </h2>
+          <p>
+            {messageSuccess
+              ? dict.contact_success_message
+              : dict.contact_fail_message}
+          </p>
           <div className={styles.contactInfo}>
             <p>{dict.inputs.email}: brkicweb@gmail.com</p>
             <p>{dict.inputs.phone}: +385 95 760 2280</p>

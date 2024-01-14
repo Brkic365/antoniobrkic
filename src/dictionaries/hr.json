@@ -26,6 +26,8 @@
   },
   "contact_success_title": "POSLANO!",
   "contact_success_message": "Hvala puno na poruci! Očekujte odgovor kroz 1-2 dana, u suprotnom vas molim da me kontaktirate preko e-mail adrese ili telefonskog broja.",
+  "contact_fail_title": "GREŠKA U SLJANJU...",
+  "contact_fail_message": "Nažalost, dogodila se greška koja je zaustavila slanje vaše poruke. Molim vas da pokušate ponovno ili da me kontaktirate preko e-mail adrese ili telefonskog broja.",
   "not_found": "NE_POSTOJI",
   "go_back": "NAZAD",
   "hero_image": "yugioh_hr.webp"
