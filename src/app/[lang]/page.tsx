@@ -32,6 +32,7 @@ export default function Home({
   const localeShort = lang.slice(0, 2);
 
   const [open, setOpen] = useState(false);
+  const [canSubmit, setCanSubmit] = useState(false);
 
   const nameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
@@ -44,6 +45,19 @@ export default function Home({
 
   const [dict, setDict] = useState<any>(null);
 
+  const updateCanSubmit = () => {
+    const name = nameRef.current?.value;
+    const email = emailRef.current?.value;
+    const phone = phoneRef.current?.value;
+    const message = messageRef.current?.value;
+
+    if (name && email && phone && message) {
+      setCanSubmit(true);
+    } else {
+      setCanSubmit(false);
+    }
+  };
+
   const submitForm = () => {
     const name = nameRef.current?.value;
     const email = emailRef.current?.value;
@@ -51,7 +65,7 @@ export default function Home({
     const budget = budgetRef.current?.value;
     const message = messageRef.current?.value;
 
-    if (!name || !email || !phone || !message) return;
+    if (!canSubmit) return;
 
     const data = {
       name,
@@ -70,6 +84,7 @@ export default function Home({
     phoneRef.current!.value = "";
     budgetRef.current!.value = "";
     messageRef.current!.value = "";
+    setCanSubmit(false);
   };
 
   const localize = async () => {
@@ -180,11 +195,13 @@ export default function Home({
               placeholder={`${dict.inputs.name.toUpperCase()}*`}
               id="name"
               ref={nameRef}
+              onChange={updateCanSubmit}
             />
             <input
               type="email"
               placeholder={`${dict.inputs.email.toUpperCase()}*`}
               ref={emailRef}
+              onChange={updateCanSubmit}
             />
           </div>
           <div className={styles.inputRow}>
@@ -193,6 +210,7 @@ export default function Home({
               placeholder={`${dict.inputs.phone.toUpperCase()}*`}
               id="tel"
               ref={phoneRef}
+              onChange={updateCanSubmit}
             />
             <input
               type="number"
@@ -204,8 +222,12 @@ export default function Home({
             placeholder={`${dict.inputs.message.toUpperCase()}*`}
             rows={10}
             ref={messageRef}
+            onChange={updateCanSubmit}
           />
-          <div className={styles.button} onClick={submitForm}>
+          <div
+            className={canSubmit ? styles.button : styles.inactiveButton}
+            onClick={submitForm}
+          >
             <p>{dict.inputs.submit}</p> <HiArrowRight />
           </div>
         </form>

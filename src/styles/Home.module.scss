@@ -349,7 +349,8 @@
         gap: 1rem;
       }
 
-      .button {
+      .button,
+      .inactiveButton {
         display: flex;
         align-items: center;
 
@@ -362,6 +363,15 @@
 
         svg {
           margin-left: 1rem;
+        }
+      }
+
+      .inactiveButton {
+        cursor: not-allowed;
+        opacity: 0.5;
+
+        &::before {
+          width: 0;
         }
       }
     }
@@ -468,7 +478,8 @@
           font-size: 0.9rem;
         }
 
-        .button {
+        .button,
+        .inactiveButton {
           margin-top: 1.5rem;
           p {
             font-size: 1.7rem;
@@ -586,7 +597,8 @@
           font-size: 1rem;
         }
 
-        .button {
+        .button,
+        .inactiveButton {
           margin-top: 1.75rem;
           p {
             font-size: 2rem;
