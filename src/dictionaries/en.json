@@ -1,0 +1,32 @@
+{
+  "links": {
+    "about": "ABOUT",
+    "my_work": "MY WORK",
+    "reviews": "REVIEWS",
+    "contact": "CONTACT ME!"
+  },
+  "description": "I am a dedicated web developer with 2 years of experience. During the past 2 years, I have developed multiple websites, ranging from simple to complex.",
+  "hero_cta": "WORK WITH ME!",
+  "about_title": "ABOUT ME",
+  "about_descriptions": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt. Curabitur posuere id purus nec fringilla. Nulla ut risus non mi pretium ornare. Proin varius ullamcorper tempus. Vivamus luctus varius lectus non faucibus. Cras nisl ante, porttitor a pulvinar quis, viverra ut ligula. Phasellus sed efficitur augue, et varius justo. Nunc ullamcorper metus ac eros eleifend consequat. Cras luctus quis mauris id ultricies.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt. Curabitur posuere id purus nec fringilla. Nulla ut risus non mi pretium ornare. Proin varius ullamcorper tempus. Vivamus luctus varius lectus non faucibus. Cras nisl ante, porttitor a pulvinar quis, viverra ut ligula. Phasellus sed efficitur augue, et varius justo. Nunc ullamcorper metus ac eros eleifend consequat. Cras luctus quis mauris id ultricies."
+  ],
+  "my_work_title": "MY WORK",
+  "visit_site": "VISIT THE WEBSITE!",
+  "reviews_title": "REVIEWS",
+  "contact_title": "CONTACT ME",
+  "inputs": {
+    "name": "Name",
+    "email": "E-mail",
+    "phone": "Phone Number",
+    "budget": "Budget (Optional)",
+    "message": "Message",
+    "submit": "SUBMIT!"
+  },
+  "contact_success_title": "SENT!",
+  "contact_success_message": "Thank you for the message! You can expect my response in 1-2 days, otherwise please contact me through my email or phone number.",
+  "not_found": "NOT_FOUND",
+  "go_back": "GO BACK",
+  "hero_image": "yugioh_en.webp"
+}

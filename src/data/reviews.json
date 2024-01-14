@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Rudolf Babic",
+    "position": "Stolarija BM d.o.o.",
+    "reviews": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
+      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+    },
+    "pfp": "default"
+  },
+  {
+    "name": "Marin Jursic",
+    "position": "Polyminds d.o.o.",
+    "reviews": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
+      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+    },
+    "pfp": "default"
+  },
+  {
+    "name": "Robert Ervacinovic",
+    "position": "Gajice d.o.o.",
+    "reviews": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
+      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+    },
+    "pfp": "default"
+  }
+]

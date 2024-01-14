@@ -1,0 +1,32 @@
+{
+  "links": {
+    "about": "O MENI",
+    "my_work": "MOJI PROJEKTI",
+    "reviews": "RECENZIJE",
+    "contact": "KONTAKTIRAJ ME!"
+  },
+  "description": "Posvećeni web developer s 2 godine iskustva. Tijekom posljednje 2 godine razvio sam više web stranica, od jednostavnih do složenih.",
+  "hero_cta": "RADITE SA MNOM!",
+  "about_title": "O MENI",
+  "about_descriptions": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt. Curabitur posuere id purus nec fringilla. Nulla ut risus non mi pretium ornare. Proin varius ullamcorper tempus. Vivamus luctus varius lectus non faucibus. Cras nisl ante, porttitor a pulvinar quis, viverra ut ligula. Phasellus sed efficitur augue, et varius justo. Nunc ullamcorper metus ac eros eleifend consequat. Cras luctus quis mauris id ultricies.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt. Curabitur posuere id purus nec fringilla. Nulla ut risus non mi pretium ornare. Proin varius ullamcorper tempus. Vivamus luctus varius lectus non faucibus. Cras nisl ante, porttitor a pulvinar quis, viverra ut ligula. Phasellus sed efficitur augue, et varius justo. Nunc ullamcorper metus ac eros eleifend consequat. Cras luctus quis mauris id ultricies."
+  ],
+  "my_work_title": "MOJI PROJEKTI",
+  "visit_site": "POSJETITE WEB STRANICU!",
+  "reviews_title": "RECENZIJE",
+  "contact_title": "KONTAKTIRAJ ME",
+  "inputs": {
+    "name": "Ime",
+    "email": "E-mail",
+    "phone": "Broj telefona",
+    "budget": "Budget (Nije Obavezno)",
+    "message": "Poruka",
+    "submit": "POŠALJI!"
+  },
+  "contact_success_title": "POSLANO!",
+  "contact_success_message": "Hvala puno na poruci! Očekujte odgovor kroz 1-2 dana, u suprotnom vas molim da me kontaktirate preko e-mail adrese ili telefonskog broja.",
+  "not_found": "NE_POSTOJI",
+  "go_back": "NAZAD",
+  "hero_image": "yugioh_hr.webp"
+}
