@@ -39,16 +39,16 @@ function Footer() {
       <ul>
         <li className={styles.copyright}>© ANTONIO BRKIC 2023</li>
         <li>
-          <Link href="/#about">{dict.links.about}</Link>
+          <Link href="#about">{dict.links.about}</Link>
         </li>
         <li>
-          <Link href="/#my-work">{dict.links.my_work}</Link>
+          <Link href="#my-work">{dict.links.my_work}</Link>
         </li>
         <li>
-          <Link href="/#reviews">{dict.links.reviews}</Link>
+          <Link href="#reviews">{dict.links.reviews}</Link>
         </li>
         <li>
-          <Link href="/#contact">{dict.links.contact}</Link>
+          <Link href="#contact">{dict.links.contact}</Link>
         </li>
       </ul>
     </section>
