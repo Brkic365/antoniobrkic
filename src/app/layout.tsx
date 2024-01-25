@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { League_Gothic } from "next/font/google";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import Favicon from "/public/images/Metadata/favicon.ico";
 
 import Navbar from "./[lang]/components/Navbar";
@@ -27,6 +29,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
