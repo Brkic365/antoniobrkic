@@ -3,8 +3,8 @@
     "img": "stolarija-bm",
     "name": "STOLARIJA BM",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "Website for a woodworking comnpany, specializing in stylish furniture and kitchens since 1992.",
+      "hr": "Web stranicu za stolariju, specijaliziranu za elegantan namještaj i kuhinje od 1992."
     },
     "href": "https://stolarijabm.vercel.app/"
   },
@@ -12,8 +12,8 @@
     "img": "siteboost",
     "name": "SITEBOOST",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "A professional website for comprehensive website audits by industry experts.",
+      "hr": "Profesionalnu web stranica za temeljite revizije web stranice od strane stručnjaka u industriji."
     },
     "href": "https://site-boost.vercel.app/"
   },
@@ -21,17 +21,26 @@
     "img": "ebankc",
     "name": "EBANKC",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "Unleashing the Potential of DeFi-Banking. Facilitated earning interest, borrowing, and exchanging digital assets at competitive rates.",
+      "hr": "Otključavanje snage DeFi-bankinga. Omogućeno zarađivanje kamata, posuđivanje i razmjena digitalnih sredstava po konkurentnim stopama."
     },
     "href": "https://ebankc.vercel.app/"
+  },
+  {
+    "img": "rocketwizard",
+    "name": "ROCKETWIZARD",
+    "descriptions": {
+      "en": "Innovative crypto copy-trading platform linking to skilled traders for replicating strategies and gaining insights.",
+      "hr": "Inovativna platforma za kopiranje kripto trgovanja koja povezuje korisnika s talentiranim trgovcima radi reprodukcije strategija i stjecanja uvida."
+    },
+    "href": "https://www.rocketwizard.io/"
   },
   {
     "img": "code-for-good",
     "name": "CODE FOR GOOD",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "A hackathon promotion website encouraging collaboration among developers, designers, and tech professionals to address social challenges.",
+      "hr": "Web stranica za promociju hackathona koja potiče suradnju među developerima, dizajnerima i stručnjacima iz područja tehnologije kako bi se rješavali društveni izazovi."
     },
     "href": "https://codeforgood-hackathon.vercel.app/"
   },
@@ -39,17 +48,17 @@
     "img": "dreamfinders",
     "name": "DREAMFINDERS",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "A platform for discovering dream properties. Explore a diverse range of listings and find the perfect property that aligns with your unique lifestyle and preferences.",
+      "hr": "Platforma za otkrivanje nekretnina iz snova. Istražite raznoliku ponudu i pronađite savršenu nekretninu koja odgovara vašem jedinstvenom načinu života i preferencijama."
     },
-    "href": "https://codeforgood-hackathon.vercel.app/"
+    "href": "https://dream-finders.vercel.app/"
   },
   {
     "img": "luxury-perspective",
     "name": "LUXURY PERSPECTIVE",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "Real estate website featuring multiple pages, including About Us, Properties, and a dedicated page for each property.",
+      "hr": "Web stranica za nekretnine s više stranica, uključujući O nama, Nekretnine i jednu stranicu za svaku pojedinu nekretninu."
     },
     "href": "https://luxury-perspective.vercel.app/"
   },
@@ -57,8 +66,8 @@
     "img": "minty-solutions",
     "name": "MINTY SOLUTIONS",
     "descriptions": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt.",
-      "hr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend mi ligula, ut vestibulum elit rhoncus at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas rhoncus, ex ac elementum dapibus, nisl mauris mollis lorem, vel hendrerit ligula ex vitae elit. Nulla ac enim lectus. Proin a eros id arcu interdum tincidunt."
+      "en": "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing.",
+      "hr": "Sve-u-jednom digitalna marketinška usluga prilagođena vašem projektu koja poboljšava i optimizira upravljanje društvenim medijima i marketing."
     },
     "href": "https://www.mintysolutions.com/"
   }

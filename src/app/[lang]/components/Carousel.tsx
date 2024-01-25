@@ -78,7 +78,7 @@ const Carousel = (props: PropType) => {
     if (changingSlide) {
       const timeoutEdit = setTimeout(() => {
         setActiveProject(projects[selectedIndex]);
-      }, 150);
+      }, 200);
 
       const timeoutClose = setTimeout(() => {
         setChangingSlide(false);
@@ -124,13 +124,16 @@ const Carousel = (props: PropType) => {
       </div>
 
       <section className={styles.projectInfo}>
-        <motion.h3
-          animate={changingSlide ? "hidden" : "visible"}
-          initial="hidden"
-          variants={textVariants}
-        >
-          {activeProject.name}
-        </motion.h3>
+        <Link href={activeProject.href} target="_blank">
+          <motion.h3
+            animate={changingSlide ? "hidden" : "visible"}
+            initial="hidden"
+            variants={textVariants}
+          >
+            {activeProject.name}
+            <HiArrowRight />
+          </motion.h3>
+        </Link>
         <motion.p
           animate={changingSlide ? "hidden" : "visible"}
           initial="hidden"
@@ -144,17 +147,6 @@ const Carousel = (props: PropType) => {
             ]
           }
         </motion.p>
-        <Link href={activeProject.href} target="_blank">
-          <motion.div
-            className={styles.button}
-            animate={changingSlide ? "hidden" : "visible"}
-            initial="hidden"
-            variants={textVariants}
-            transition={{ delay: 0.2 }}
-          >
-            <p>{ctaLocale}</p> <HiArrowRight />
-          </motion.div>
-        </Link>
       </section>
 
       <button
