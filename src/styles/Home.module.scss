@@ -94,6 +94,7 @@
           position: absolute;
           right: -0.5rem;
           top: -0.75rem;
+          z-index: 2;
         }
 
         h1 {
@@ -101,10 +102,12 @@
           font-style: normal;
           font-weight: 400;
           line-height: normal;
+          z-index: 1;
         }
 
         .lastName {
           text-align: right;
+          z-index: 1;
 
           .innerDesc {
             display: none;
