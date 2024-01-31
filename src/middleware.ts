@@ -22,7 +22,12 @@ export function middleware(request: any) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale || pathname.startsWith("/images")) return;
+  if (
+    pathnameHasLocale ||
+    pathname.startsWith("/images") ||
+    pathname.includes("/favicon.ico")
+  )
+    return;
 
   // Redirect if there is no locale
   const locale = getLocale(request);
