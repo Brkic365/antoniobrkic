@@ -36,6 +36,15 @@
     "href": "https://www.rocketwizard.io/"
   },
   {
+    "img": "fleurs-ai",
+    "name": "Fleurs AI Companionship",
+    "descriptions": {
+      "en": "Website for engaging in meaningful conversations with AI companions tailored to your interests, and emotional needs.",
+      "hr": "Web stranica za sudjelovanje u značajnim razgovorima s AI suputnicima prilagođenim vašim interesima i emocionalnim potrebama."
+    },
+    "href": "https://www.fleurscompanionship.com/"
+  },
+  {
     "img": "code-for-good",
     "name": "CODE FOR GOOD",
     "descriptions": {
