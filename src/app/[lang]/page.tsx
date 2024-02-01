@@ -340,7 +340,7 @@ export default function Home({
               visible: {
                 transform: "scale(1) rotate(0deg)",
                 filter: "blur(0px)",
-                opacity: 1,
+                opacity: 0.8,
               },
               hidden: {
                 transform: "scale(1.5) rotate(3deg)",
