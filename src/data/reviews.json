@@ -1,5 +1,14 @@
 [
   {
+    "name": "Shubeg Singh",
+    "position": "Shubeg - FZCO",
+    "reviews": {
+      "en": "Ran into lots of issues with my last developer and found Brkic who’s made every thing for my business easier. His communication, response time, availability, and expertise is top notch, definitely the best developer I’ve worked with.",
+      "hr": "Imao sam puno problema sa prošlim developerom te sam naišao na Brkića koji je učinio svaku stvar za moju kompaniju lakšom. Njegova komunikacija, brzina odgovora, dostupnost i specijalnost je vrhunska, definitivno najbolji developer s kojim sam radio."
+    },
+    "pfp": "shubeg"
+  },
+  {
     "name": "Rudolf Babic",
     "position": "Stolarija BM d.o.o.",
     "reviews": {
@@ -14,15 +23,6 @@
     "reviews": {
       "en": "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
       "hr": "Izvanredan programer, vrlo profesionalan i pruža izvrsnu korisničku podršku, odlično iskustvo suradnje s njim. Isporučio je brz i optimiziran kôd i sve je radilo savršeno! Vrlo sam zadovoljan njegovim radom i volio bih ponovno surađivati s njim u budućnosti! "
-    },
-    "pfp": "default"
-  },
-  {
-    "name": "Robert Ervacinovic",
-    "position": "Tvrde Majice d.o.o.",
-    "reviews": {
-      "en": "Highly skilled and creative, Antonio is a top-notch web developer! His attention to detail and dedication to delivering optimized code sets him apart. Working with Antonio is not just productive, but also enjoyable. I'm thrilled with the results and look forward to future collaborations!",
-      "hr": "Visoko stručan i kreativan, Antonio je vrhunski web developer! Njegova pažnja prema detaljima i predanost isporuci optimiziranog koda izdvajaju ga. Suradnja s Antoniom nije samo produktivna, već i ugodna. Oduševljen sam rezultatima i radujem se budućim suradnjama!"
     },
     "pfp": "default"
   }
