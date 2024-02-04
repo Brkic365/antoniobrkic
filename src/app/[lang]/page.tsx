@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-
 import styles from "@/styles/Home.module.scss";
+
+import Link from "next/link";
 
 import { getDictionary } from "./dictionaries";
 
@@ -229,19 +230,21 @@ export default function Home({
           >
             {dict.description}
           </motion.p>
-          <motion.div
-            className={styles.button}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.5 }}
-            variants={{
-              visible: { transform: "translateX(0)", opacity: 1 },
-              hidden: { transform: "translateX(-100%)", opacity: 0 },
-            }}
-          >
-            <p>{dict.hero_cta}</p> <HiArrowRight />
-          </motion.div>
+          <Link href="/#contact">
+            <motion.div
+              className={styles.button}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              variants={{
+                visible: { transform: "translateX(0)", opacity: 1 },
+                hidden: { transform: "translateX(-100%)", opacity: 0 },
+              }}
+            >
+              <p>{dict.hero_cta}</p> <HiArrowRight />
+            </motion.div>
+          </Link>
         </section>
 
         <motion.img
