@@ -130,7 +130,7 @@ export default function Home({
               : dict.contact_fail_message}
           </p>
           <div className={styles.contactInfo}>
-            <p>{dict.inputs.email}: brkicweb@gmail.com</p>
+            <p>{dict.inputs.email}: antonio@brki.cc</p>
             <p>{dict.inputs.phone}: +385 95 760 2280</p>
           </div>
         </section>
@@ -493,7 +493,7 @@ export default function Home({
                 },
               }}
             >
-              {dict.inputs.email}: brkicweb@gmail.com
+              {dict.inputs.email}: antonio@brki.cc
             </motion.p>
             <motion.p
               initial="hidden"
